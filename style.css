@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(135deg, #f8cdda, #f1a7c3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.emoji {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+.buttons {
+  position: relative;
+  height: 80px;
+}
+
+button {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.yes {
+  background: #ff4d79;
+  color: white;
+}
+
+.no {
+  background: #ddd;
+  position: absolute;
+  left: 180px;
+}
+
+.hint {
+  margin-top: 20px;
+  font-size: 13px;
+  color: gray;
+}
